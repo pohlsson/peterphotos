@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {getPhotos} from 'actions/photos';
+import {Section} from 'components/common/Section';
 
 export class App extends Component {
   render() {
     return (
-      <div className="app">
-      </div>
+      <Section className="app" depth={2}>
+        test
+      </Section>
     );
   }
 }
