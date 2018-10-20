@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
 import {photosReducer} from 'reducers/photos';
 
-const app = combineReducers({
+const reducers = combineReducers({
   photosReducer,
 });
 
-export default app;
+export default reducers;
